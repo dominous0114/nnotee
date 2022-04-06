@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "78233687085",
+    "project_id": "motocare-97f24",
+    "storage_bucket": "motocare-97f24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:78233687085:android:9b496194261579182e94a4",
+        "android_client_info": {
+          "package_name": "com.example.nnotee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "78233687085-u3g8ipdpmvcnm8jitnk32rgijqbo4qr3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflDWwoc9n-xHzrJBkbovbY9y_NuQXdMg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "78233687085-u3g8ipdpmvcnm8jitnk32rgijqbo4qr3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
