@@ -43,7 +43,7 @@ class _ResetPasswordCustomerState extends State<ResetPasswordCustomer> {
       ..subject = 'แก้ไขรหัสผ่านจาก Motocare'
       ..text = 'This is the plain text.\nThis is line 2 of the text part.'
       ..html =
-          '<h1>แก้ไขรหัสผ่าน</h1>\n<h2>สวัสดีคุณ ${customerModel.name}</h2>\n<p><a href="https://monaxial-license.000webhostapp.com/mobile/editPasswordCus.php?isAdd=true&email=${customerModel.email}">คลิกที่นี่เพื่อเปลี่ยน Password</a></p>';
+          '<h1>แก้ไขรหัสผ่าน</h1>\n<h2>สวัสดีคุณ ${customerModel.name}</h2>\n<p><a href="${MyConstant().domain}/mobile/editPasswordCus.php?isAdd=true&email=${customerModel.email}">คลิกที่นี่เพื่อเปลี่ยน Password</a></p>';
 
     try {
       final sendReport = await send(message, smtpServer);
