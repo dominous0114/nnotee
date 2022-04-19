@@ -1,10 +1,10 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+//import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:nnotee/model/customer_model.dart';
-import 'package:nnotee/model/store_model.dart';
+//import 'package:nnotee/model/store_model.dart';
 import 'package:nnotee/screen/customer/edit_info_customer.dart';
 import 'package:nnotee/screen/customer/estCustomer.dart';
 import 'package:nnotee/screen/customer/requireCustomer.dart';
@@ -13,9 +13,9 @@ import 'package:nnotee/screen/customer/trackingCs.dart';
 import 'package:nnotee/utility/my_constant.dart';
 import 'package:nnotee/utility/my_style.dart';
 import 'package:nnotee/utility/signout_process.dart';
-import 'package:nnotee/widget/store/product_store.dart';
-import 'package:nnotee/widget/customer/about_requirement_cs.dart';
-import 'package:nnotee/widget/customer/tracking_customer.dart';
+//import 'package:nnotee/widget/store/product_store.dart';
+//import 'package:nnotee/widget/customer/about_requirement_cs.dart';
+//import 'package:nnotee/widget/customer/tracking_customer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ProfileCustomer extends StatefulWidget {

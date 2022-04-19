@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nnotee/model/require_est_model.dart';
 import 'package:nnotee/widget/customer/about_est.dart';
-import 'package:nnotee/widget/customer/about_requirement_cs.dart';
+//import 'package:nnotee/widget/customer/about_requirement_cs.dart';
 
 class ShowEst extends StatefulWidget {
   final RequireEstModel estModel;

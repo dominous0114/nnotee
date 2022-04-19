@@ -1,20 +1,20 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:math';
-import 'dart:typed_data';
-import 'dart:ui' as ui;
+//import 'dart:typed_data';
+//import 'dart:ui' as ui;
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/rendering.dart';
-import 'package:flutter/services.dart';
+//import 'package:flutter/rendering.dart';
+//import 'package:flutter/services.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:intl/intl.dart';
 import 'package:location/location.dart';
 import 'package:nnotee/Services/storeServices.dart';
-import 'package:nnotee/model/customer_model.dart';
+//import 'package:nnotee/model/customer_model.dart';
 import 'package:nnotee/model/store_model.dart';
 import 'package:nnotee/screen/customer/show_all_distance.dart';
 import 'package:nnotee/screen/customer/show_all_rating.dart';
@@ -35,19 +35,12 @@ class HomeMap extends StatefulWidget {
 class _HomeMapState extends State<HomeMap> {
   double latitude1, latitude2, longitude1, longitude2, distance;
   String distanceString;
-  List<CustomerModel> customerModels = List();
   List<StoreModel> storeModels = [];
   List<Widget> shopCards = [];
   List<StoreModel> storeList = [];
   List<Marker> allMarkers = [];
   Completer<GoogleMapController> _controller = Completer();
   BitmapDescriptor pinLocationIcon;
-
-  static final CameraPosition _kLake = CameraPosition(
-      bearing: 192.8334901395799,
-      target: LatLng(37.43296265331129, -122.08832357078792),
-      tilt: 59.440717697143555,
-      zoom: 19.151926040649414);
 
   @override
   void initState() {
@@ -165,7 +158,7 @@ class _HomeMapState extends State<HomeMap> {
   }
 
   getStore() {
-    StoreServices.getStore().then((storeModel) {
+    StoreServices.getStoreMarker().then((storeModel) {
       if (mounted)
         setState(() {
           storeList = storeModel;

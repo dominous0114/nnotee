@@ -6,10 +6,10 @@ import 'package:nnotee/model/chat_model.dart';
 import 'package:nnotee/model/tracking.dart';
 import 'package:nnotee/utility/banstore.dart';
 import 'package:nnotee/utility/my_constant.dart';
-import 'package:nnotee/utility/normal_dialog.dart';
+//import 'package:nnotee/utility/normal_dialog.dart';
 
 class ShowChatStore extends StatefulWidget {
-  ChatModel chatModel;
+  final ChatModel chatModel;
   ShowChatStore({Key key, this.chatModel}) : super(key: key);
 
   @override

@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
+//import 'package:flutter/scheduler.dart';
 import 'package:nnotee/model/chat_model.dart';
 import 'package:nnotee/model/customer_model.dart';
 import 'package:nnotee/model/product.dart';

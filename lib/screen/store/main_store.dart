@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:nnotee/screen/home_chat.dart';
+//import 'package:nnotee/screen/home_chat.dart';
 import 'package:nnotee/screen/home_chat_st.dart';
 import 'package:nnotee/screen/store/col_store.dart';
 import 'package:nnotee/screen/store/profile_store.dart';
 import 'package:nnotee/utility/banstore.dart';
-import 'package:nnotee/utility/my_style.dart';
-import 'package:nnotee/utility/signout_process.dart';
+//import 'package:nnotee/utility/my_style.dart';
+//import 'package:nnotee/utility/signout_process.dart';
 import 'package:nnotee/widget/store/information_store.dart';
-import 'package:nnotee/widget/store/product_store.dart';
-import 'package:nnotee/widget/customer/about_requirement_cs.dart';
+//import 'package:nnotee/widget/store/product_store.dart';
+//import 'package:nnotee/widget/customer/about_requirement_cs.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class MainStore extends StatefulWidget {

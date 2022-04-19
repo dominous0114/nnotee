@@ -11,8 +11,8 @@ import 'package:nnotee/utility/my_constant.dart';
 import 'package:nnotee/utility/my_style.dart';
 import 'package:nnotee/utility/signout_process.dart';
 import 'package:nnotee/widget/store/product_store.dart';
-import 'package:nnotee/widget/customer/about_requirement_cs.dart';
-import 'package:nnotee/widget/customer/card_require_cs.dart';
+//import 'package:nnotee/widget/customer/about_requirement_cs.dart';
+//import 'package:nnotee/widget/customer/card_require_cs.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ProfileStore extends StatefulWidget {

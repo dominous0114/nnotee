@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:nnotee/model/product.dart';
 import 'package:nnotee/model/store_model.dart';
-import 'package:nnotee/screen/customer/report_cus.dart';
+//import 'package:nnotee/screen/customer/report_cus.dart';
 import 'package:nnotee/utility/my_constant.dart';
 import 'package:nnotee/utility/normal_dialog.dart';
 import 'package:nnotee/widget/customer/about_product.dart';

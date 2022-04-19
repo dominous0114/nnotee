@@ -3,12 +3,12 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:nnotee/model/chat_model.dart';
-import 'package:nnotee/screen/customer/show_chat.dart';
+//import 'package:nnotee/screen/customer/show_chat.dart';
 import 'package:nnotee/screen/store/show_chat_st.dart';
 import 'package:nnotee/utility/banstore.dart';
 import 'package:nnotee/utility/my_constant.dart';
-import 'package:nnotee/utility/my_style.dart';
-import 'package:http/http.dart' as http;
+//import 'package:nnotee/utility/my_style.dart';
+//import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class CusChat extends StatefulWidget {

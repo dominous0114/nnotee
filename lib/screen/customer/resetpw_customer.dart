@@ -7,9 +7,9 @@ import 'package:mailer/mailer.dart';
 import 'package:mailer/smtp_server.dart';
 import 'package:mailer/smtp_server/gmail.dart';
 import 'package:nnotee/model/customer_model.dart';
-import 'package:nnotee/screen/store/resetpw_store.dart';
+//import 'package:nnotee/screen/store/resetpw_store.dart';
 import 'package:nnotee/utility/my_constant.dart';
-import 'package:nnotee/utility/my_style.dart';
+//import 'package:nnotee/utility/my_style.dart';
 import 'package:nnotee/utility/normal_dialog.dart';
 //import 'package:sendgrid_mailer/sendgrid_mailer.dart';
 

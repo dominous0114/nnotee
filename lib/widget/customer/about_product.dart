@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nnotee/Services/productServices.dart';
 import 'package:nnotee/model/product.dart';
 import 'package:nnotee/model/store_model.dart';
-import 'package:nnotee/utility/my_style.dart';
+//import 'package:nnotee/utility/my_style.dart';
 
 class AboutProduct extends StatefulWidget {
   final StoreModel storeModel;

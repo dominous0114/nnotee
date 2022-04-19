@@ -6,14 +6,14 @@ import 'package:nnotee/model/chat_model.dart';
 import 'package:nnotee/model/store_model.dart';
 import 'package:nnotee/model/strec_model.dart';
 import 'package:nnotee/model/tracking.dart';
-import 'package:nnotee/screen/store/resetpw_store.dart';
+//import 'package:nnotee/screen/store/resetpw_store.dart';
 import 'package:nnotee/utility/banstore.dart';
 import 'package:nnotee/utility/my_constant.dart';
-import 'package:nnotee/utility/normal_dialog.dart';
+//import 'package:nnotee/utility/normal_dialog.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ShowChatFromrecStore extends StatefulWidget {
-  StoreRecordModel storeRecordModel;
+  final StoreRecordModel storeRecordModel;
   ShowChatFromrecStore({Key key, this.storeRecordModel}) : super(key: key);
 
   @override

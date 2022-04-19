@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
+//import 'package:flutter/scheduler.dart';
 import 'package:nnotee/model/chat_model.dart';
 import 'package:nnotee/model/customer_model.dart';
 import 'package:nnotee/model/product.dart';
@@ -11,7 +11,7 @@ import 'package:nnotee/utility/my_constant.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ShowChatFromList extends StatefulWidget {
-  ChatModel chatModel;
+  final ChatModel chatModel;
   ShowChatFromList({Key key, this.chatModel}) : super(key: key);
 
   @override

@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'dart:ffi';
+//import 'dart:ffi';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
@@ -35,7 +35,6 @@ class _SignInState extends State<SignIn> {
   String value = 'customer';
   String user, password, chooseType, news;
   bool login, register, csRadio, stRadio;
-  Map _userData;
   bool isLoggedIn = false;
   var profile;
   var profiletosend;
@@ -105,7 +104,6 @@ class _SignInState extends State<SignIn> {
         await FacebookAuth.i.login(permissions: ["public_profile", "email"]);
 
     if (result.status == LoginStatus.success) {
-      final userData = await FacebookAuth.i.getUserData();
       var graphResponse = await http.get(Uri.parse(
           'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email,picture.width(800).height(800)&access_token=${result.accessToken.token}'));
       profile = json.decode(graphResponse.body);
@@ -127,7 +125,6 @@ class _SignInState extends State<SignIn> {
         await FacebookAuth.i.login(permissions: ["public_profile", "email"]);
 
     if (result.status == LoginStatus.success) {
-      final userData = await FacebookAuth.i.getUserData();
       var graphResponse = await http.get(Uri.parse(
           'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email,picture.width(800).height(800)&access_token=${result.accessToken.token}'));
       profile = json.decode(graphResponse.body);

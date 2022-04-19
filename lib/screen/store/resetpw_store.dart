@@ -8,7 +8,7 @@ import 'package:mailer/smtp_server/gmail.dart';
 import 'package:nnotee/model/store_model.dart';
 import 'package:nnotee/utility/my_constant.dart';
 import 'package:nnotee/utility/normal_dialog.dart';
-import 'package:http/http.dart' as http;
+//import 'package:http/http.dart' as http;
 
 class ResetPasswordStore extends StatefulWidget {
   const ResetPasswordStore({Key key}) : super(key: key);

@@ -5,9 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:nnotee/model/customer_model.dart';
 import 'package:nnotee/model/strec_model.dart';
-import 'package:nnotee/screen/customer/show_chatfromrecord.dart';
+//import 'package:nnotee/screen/customer/show_chatfromrecord.dart';
 import 'package:nnotee/screen/store/add_order.dart';
-import 'package:nnotee/screen/store/resetpw_store.dart';
+//import 'package:nnotee/screen/store/resetpw_store.dart';
 import 'package:nnotee/screen/store/showchatfromrec_st.dart';
 import 'package:nnotee/utility/my_constant.dart';
 import 'package:nnotee/utility/my_style.dart';
@@ -28,7 +28,6 @@ class _StoreColState extends State<StoreCol> {
   List<StoreRecordModel> strecList = [];
   String tel;
   CustomerModel customerModel;
-  String customer_id;
 
   void initState() {
     readStoreRecord();

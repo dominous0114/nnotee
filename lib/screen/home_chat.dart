@@ -5,12 +5,12 @@ import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 import 'package:nnotee/model/chat_model.dart';
 import 'package:nnotee/model/store_model.dart';
-import 'package:nnotee/screen/customer/show_chat.dart';
+//import 'package:nnotee/screen/customer/show_chat.dart';
 import 'package:nnotee/screen/customer/show_chatfromlist.dart';
-import 'package:nnotee/screen/store/resetpw_store.dart';
+//import 'package:nnotee/screen/store/resetpw_store.dart';
 import 'package:nnotee/utility/my_constant.dart';
-import 'package:nnotee/utility/my_style.dart';
-import 'package:http/http.dart' as http;
+//import 'package:nnotee/utility/my_style.dart';
+//import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class StChat extends StatefulWidget {
@@ -62,7 +62,6 @@ class _StChatState extends State<StChat> {
       var result = json.decode(value.data);
       for (var map in result) {
         model = StoreModel.fromJson(map);
-        String name = model.name;
       }
     });
   }

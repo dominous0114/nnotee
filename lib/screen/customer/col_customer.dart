@@ -1,13 +1,13 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:flutter/cupertino.dart';
+//import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:nnotee/model/cusrec_model.dart';
 import 'package:nnotee/screen/customer/show_chatfromrecord.dart';
-import 'package:nnotee/screen/signin.dart';
+//import 'package:nnotee/screen/signin.dart';
 import 'package:nnotee/utility/my_constant.dart';
-import 'package:nnotee/utility/my_style.dart';
+//import 'package:nnotee/utility/my_style.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher.dart';
 

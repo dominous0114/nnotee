@@ -5,7 +5,7 @@ import 'package:nnotee/model/require_est_model.dart';
 import 'package:nnotee/screen/customer/requireCustomer.dart';
 import 'package:nnotee/screen/customer/show_require.dart';
 import 'package:nnotee/utility/my_constant.dart';
-import 'package:nnotee/utility/my_style.dart';
+//import 'package:nnotee/utility/my_style.dart';
 import 'package:nnotee/utility/normal_dialog.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
