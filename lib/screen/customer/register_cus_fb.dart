@@ -88,7 +88,8 @@ class _RegisTerCusFBState extends State<RegisTerCusFB> {
     MaterialPageRoute route = MaterialPageRoute(
       builder: (context) => myWidget,
     );
-    Navigator.pushAndRemoveUntil(context, route, (route) => false);
+    // Navigator.pushAndRemoveUntil(context, route, (route) => false);
+    Navigator.push(context, route);
   }
 
   Future<Null> checkEmail() async {
