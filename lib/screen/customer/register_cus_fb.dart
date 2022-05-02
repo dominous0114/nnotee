@@ -114,7 +114,7 @@ class _RegisTerCusFBState extends State<RegisTerCusFB> {
       print('res = $response');
       if (response.toString() == 'null') {
         if (file == null) {
-
+          registerThread();
         } else {
           registerThreadNormal();
         }
@@ -125,7 +125,27 @@ class _RegisTerCusFBState extends State<RegisTerCusFB> {
     } catch (e) {}
   }
 
-
+  Future<Null> registerThread() async {
+    print(profile["name"]);
+    print(profile["id"]);
+    print(email);
+    print(tel);
+    print(profile["picture"]["data"]["url"]);
+    String url =
+        "${MyConstant().domain}/mobile/addCustomer.php?isAdd=true&Name=$name&User=${profile['id']}&Password=${profile['id']}&email=$email&tel=$tel&urlImage=${Uri.encodeComponent(profile['picture']['data']['url'])}";
+    print(url);
+    try {
+      Response response = await Dio().get(url);
+      print('res = $response');
+      if (response.toString() == 'true') {
+        checkAuthen();
+      } else {
+        normalDialog(context, 'ไม่สามารถสมัครได้');
+      }
+    } catch (e) {
+      print(e);
+    }
+  }
 
   Future<Null> registerThreadNormal() async {
     String url =
