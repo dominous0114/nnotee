@@ -31,7 +31,6 @@ class RegisTerCusFB extends StatefulWidget {
 class _RegisTerCusFBState extends State<RegisTerCusFB> {
   CustomerModel customerModel;
 
-  Map _userData;
   String name, email, tel, pic, data, urlImage;
   String proname, proemail, protel, propic, prouser, propass;
   File file;
