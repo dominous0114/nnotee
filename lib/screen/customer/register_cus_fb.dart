@@ -126,6 +126,7 @@ class _RegisTerCusFBState extends State<RegisTerCusFB> {
   }
 
   Future<Null> registerThread() async {
+    print("james");
     print(profile["name"]);
     print(profile["id"]);
     print(email);
